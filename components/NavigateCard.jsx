@@ -30,7 +30,6 @@ const NavigateCard = () => {
                           location: details.geometry.location,
                           description: data.description,
                         }))
-                        console.log(details.geometry.location)
                         navigation.navigate("RideOptionsCard")
                     }}
                     nearbyPlacesAPI='GooglePlacesSearch'
